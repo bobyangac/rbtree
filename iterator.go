@@ -93,7 +93,7 @@ func (t *Rbtree) ascendRange(x *Node, inf, sup Item, iterator Iterator) bool {
 }
 
 // SliceAscend will recursively go through Nodes and return a slice of Nodes by ascending order.
-func (t *Rbtree) SliceAscend(pivot Item, iterator Iterator) []*Node {
+func (t *Rbtree) SliceAscend() []*Node {
 	result := make([]*Node, t.count)
 	count := 0
 
@@ -112,7 +112,7 @@ func (t *Rbtree) dfsLeft(x *Node, count *int, result []*Node) {
 }
 
 // SliceDescend will recursively go through Nodes and return a slice of Nodes by descending order.
-func (t *Rbtree) SliceDescend(pivot Item, iterator Iterator) []*Node {
+func (t *Rbtree) SliceDescend() []*Node {
 	result := make([]*Node, t.count)
 	count := 0
 
