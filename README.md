@@ -14,7 +14,7 @@ which will be store in the Red-Black tree, here are some examples.
 	
 	import (
 		"fmt"
-		"github.com/bobyanggg/rbtree"
+		"github.com/bobyangac/rbtree"
 	)
 	
 	func main() {

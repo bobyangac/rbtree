@@ -7,7 +7,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/bobyanggg/rbtree"
+	"github.com/bobyangac/rbtree"
 )
 
 func main() {
