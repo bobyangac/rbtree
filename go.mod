@@ -1,3 +1,3 @@
-module github.com/HuKeping/rbtree
+module github.com/bobyangac/rbtree
 
 go 1.16

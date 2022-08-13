@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/HuKeping/rbtree"
+	"github.com/bobyangac/rbtree"
 )
 
 // Var is the node of a struct

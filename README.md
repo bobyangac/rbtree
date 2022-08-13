@@ -14,7 +14,7 @@ which will be store in the Red-Black tree, here are some examples.
 	
 	import (
 		"fmt"
-		"github.com/HuKeping/rbtree"
+		"github.com/bobyangac/rbtree"
 	)
 	
 	func main() {
@@ -54,7 +54,7 @@ which will be store in the Red-Black tree, here are some examples.
 	
 	import (
 		"fmt"
-		"github.com/HuKeping/rbtree"
+		"github.com/bobyangac/rbtree"
 	)
 	
 	func main() {
@@ -80,7 +80,7 @@ which will be store in the Red-Black tree, here are some examples.
 	
 	import (
 		"fmt"
-		"github.com/HuKeping/rbtree"
+		"github.com/bobyangac/rbtree"
 		"time"
 	)
 	
